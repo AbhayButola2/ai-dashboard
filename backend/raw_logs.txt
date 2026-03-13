@@ -1,0 +1,144 @@
+# ============================================================
+# Feodo Tracker - Botnet C2 IP Feed
+# Generated: 2026-03-13T11:45:00Z
+# Fields: first_seen_utc,dst_ip,dst_port,c2_status,last_online,malware
+# ============================================================
+2022-06-04 21:24:53,162.243.103.246,8080,online,2026-03-05T20:45:00Z,Emotet
+2025-12-30 13:56:31,50.16.16.211,443,online,2026-03-06T22:45:00Z,QakBot
+2026-01-13 21:41:15,34.204.119.63,443,online,2026-03-06T21:45:00Z,QakBot
+2026-02-17 05:41:23,178.62.3.223,443,online,2026-03-06T00:45:00Z,QakBot
+2026-03-04 14:28:39,27.133.154.218,443,online,2026-03-09T02:45:00Z,QakBot
+
+# ============================================================
+# Blocklist.de - Attacker IP block log
+# exported=2026-03-13T11:45:00Z  format=syslog
+# ============================================================
+Mar 13 11:45:00 fw01.corp kernel: [CRIT] BLOCK src=1.117.233.202 dst=10.0.0.1 proto=TCP dport=22 reason="SSH_BRUTE_FORCE" count=32
+Mar 13 11:45:00 edge-gw kernel: [WARN] BLOCK src=1.15.136.28 dst=192.168.1.254 proto=TCP dport=22 reason="FTP_BRUTE_FORCE" count=199
+Mar 13 11:45:00 honeypot-us-east kernel: [WARN] BLOCK src=1.162.231.28 dst=172.16.0.10 proto=TCP dport=22 reason="SMTP_AUTH_ABUSE" count=51
+Mar 13 11:45:00 ids-sensor-02 kernel: [WARN] BLOCK src=1.164.175.119 dst=10.0.0.1 proto=TCP dport=22 reason="RDP_SCAN" count=133
+Mar 13 11:45:00 siem-relay kernel: [WARN] BLOCK src=1.174.211.75 dst=192.168.1.254 proto=TCP dport=22 reason="HTTP_FLOOD" count=58
+Mar 13 11:45:00 fw01.corp kernel: [CRIT] BLOCK src=1.180.62.41 dst=172.16.0.10 proto=TCP dport=22 reason="SSH_BRUTE_FORCE" count=84
+Mar 13 11:45:00 edge-gw kernel: [WARN] BLOCK src=1.187.231.184 dst=10.0.0.1 proto=TCP dport=22 reason="FTP_BRUTE_FORCE" count=48
+Mar 13 11:45:00 honeypot-us-east kernel: [WARN] BLOCK src=1.192.189.251 dst=192.168.1.254 proto=TCP dport=22 reason="SMTP_AUTH_ABUSE" count=11
+Mar 13 11:45:00 ids-sensor-02 kernel: [WARN] BLOCK src=1.192.202.92 dst=172.16.0.10 proto=TCP dport=22 reason="RDP_SCAN" count=42
+Mar 13 11:45:00 siem-relay kernel: [WARN] BLOCK src=1.193.163.2 dst=10.0.0.1 proto=TCP dport=22 reason="HTTP_FLOOD" count=123
+Mar 13 10:45:00 fw01.corp kernel: [CRIT] BLOCK src=1.197.102.62 dst=192.168.1.254 proto=TCP dport=22 reason="SSH_BRUTE_FORCE" count=20
+Mar 13 10:45:00 edge-gw kernel: [WARN] BLOCK src=1.204.63.185 dst=172.16.0.10 proto=TCP dport=22 reason="FTP_BRUTE_FORCE" count=134
+Mar 13 10:45:00 honeypot-us-east kernel: [WARN] BLOCK src=1.212.225.99 dst=10.0.0.1 proto=TCP dport=22 reason="SMTP_AUTH_ABUSE" count=73
+Mar 13 10:45:00 ids-sensor-02 kernel: [WARN] BLOCK src=1.214.117.218 dst=192.168.1.254 proto=TCP dport=22 reason="RDP_SCAN" count=46
+Mar 13 10:45:00 siem-relay kernel: [WARN] BLOCK src=1.214.197.163 dst=172.16.0.10 proto=TCP dport=22 reason="HTTP_FLOOD" count=48
+Mar 13 10:45:00 fw01.corp kernel: [CRIT] BLOCK src=1.215.233.74 dst=10.0.0.1 proto=TCP dport=22 reason="SSH_BRUTE_FORCE" count=155
+Mar 13 10:45:00 edge-gw kernel: [WARN] BLOCK src=1.220.64.218 dst=192.168.1.254 proto=TCP dport=22 reason="FTP_BRUTE_FORCE" count=179
+Mar 13 10:45:00 honeypot-us-east kernel: [WARN] BLOCK src=1.220.95.211 dst=172.16.0.10 proto=TCP dport=22 reason="SMTP_AUTH_ABUSE" count=121
+Mar 13 10:45:00 ids-sensor-02 kernel: [WARN] BLOCK src=1.222.42.237 dst=10.0.0.1 proto=TCP dport=22 reason="RDP_SCAN" count=94
+Mar 13 10:45:00 siem-relay kernel: [WARN] BLOCK src=1.227.228.131 dst=192.168.1.254 proto=TCP dport=22 reason="HTTP_FLOOD" count=49
+Mar 13 09:45:00 fw01.corp kernel: [CRIT] BLOCK src=1.234.23.221 dst=172.16.0.10 proto=TCP dport=22 reason="SSH_BRUTE_FORCE" count=172
+Mar 13 09:45:00 edge-gw kernel: [WARN] BLOCK src=1.234.27.159 dst=10.0.0.1 proto=TCP dport=22 reason="FTP_BRUTE_FORCE" count=62
+Mar 13 09:45:00 honeypot-us-east kernel: [WARN] BLOCK src=1.235.192.130 dst=192.168.1.254 proto=TCP dport=22 reason="SMTP_AUTH_ABUSE" count=163
+Mar 13 09:45:00 ids-sensor-02 kernel: [WARN] BLOCK src=1.235.192.131 dst=172.16.0.10 proto=TCP dport=22 reason="RDP_SCAN" count=18
+Mar 13 09:45:00 siem-relay kernel: [WARN] BLOCK src=1.237.155.150 dst=10.0.0.1 proto=TCP dport=22 reason="HTTP_FLOOD" count=114
+Mar 13 09:45:00 fw01.corp kernel: [CRIT] BLOCK src=1.238.106.229 dst=192.168.1.254 proto=TCP dport=22 reason="SSH_BRUTE_FORCE" count=136
+Mar 13 09:45:00 edge-gw kernel: [WARN] BLOCK src=1.238.114.145 dst=172.16.0.10 proto=TCP dport=22 reason="FTP_BRUTE_FORCE" count=104
+Mar 13 09:45:00 honeypot-us-east kernel: [WARN] BLOCK src=1.24.210.27 dst=10.0.0.1 proto=TCP dport=22 reason="SMTP_AUTH_ABUSE" count=8
+Mar 13 09:45:00 ids-sensor-02 kernel: [WARN] BLOCK src=1.241.162.20 dst=192.168.1.254 proto=TCP dport=22 reason="RDP_SCAN" count=184
+Mar 13 09:45:00 siem-relay kernel: [WARN] BLOCK src=1.241.64.237 dst=172.16.0.10 proto=TCP dport=22 reason="HTTP_FLOOD" count=57
+Mar 13 08:45:00 fw01.corp kernel: [CRIT] BLOCK src=1.247.216.26 dst=10.0.0.1 proto=TCP dport=22 reason="SSH_BRUTE_FORCE" count=20
+Mar 13 08:45:00 edge-gw kernel: [WARN] BLOCK src=1.247.245.61 dst=192.168.1.254 proto=TCP dport=22 reason="FTP_BRUTE_FORCE" count=123
+Mar 13 08:45:00 honeypot-us-east kernel: [WARN] BLOCK src=1.250.67.114 dst=172.16.0.10 proto=TCP dport=22 reason="SMTP_AUTH_ABUSE" count=155
+Mar 13 08:45:00 ids-sensor-02 kernel: [WARN] BLOCK src=1.250.67.190 dst=10.0.0.1 proto=TCP dport=22 reason="RDP_SCAN" count=166
+Mar 13 08:45:00 siem-relay kernel: [WARN] BLOCK src=1.30.20.238 dst=192.168.1.254 proto=TCP dport=22 reason="HTTP_FLOOD" count=133
+Mar 13 08:45:00 fw01.corp kernel: [CRIT] BLOCK src=1.30.20.98 dst=172.16.0.10 proto=TCP dport=22 reason="SSH_BRUTE_FORCE" count=128
+Mar 13 08:45:00 edge-gw kernel: [WARN] BLOCK src=1.31.80.222 dst=10.0.0.1 proto=TCP dport=22 reason="FTP_BRUTE_FORCE" count=85
+Mar 13 08:45:00 honeypot-us-east kernel: [WARN] BLOCK src=1.34.27.213 dst=192.168.1.254 proto=TCP dport=22 reason="SMTP_AUTH_ABUSE" count=181
+Mar 13 08:45:00 ids-sensor-02 kernel: [WARN] BLOCK src=1.54.214.228 dst=172.16.0.10 proto=TCP dport=22 reason="RDP_SCAN" count=47
+Mar 13 08:45:00 siem-relay kernel: [WARN] BLOCK src=1.55.33.86 dst=10.0.0.1 proto=TCP dport=22 reason="HTTP_FLOOD" count=90
+Mar 13 07:45:00 fw01.corp kernel: [CRIT] BLOCK src=1.82.135.154 dst=192.168.1.254 proto=TCP dport=22 reason="SSH_BRUTE_FORCE" count=3
+Mar 13 07:45:00 edge-gw kernel: [WARN] BLOCK src=1.85.42.195 dst=172.16.0.10 proto=TCP dport=22 reason="FTP_BRUTE_FORCE" count=56
+Mar 13 07:45:00 honeypot-us-east kernel: [WARN] BLOCK src=1.94.194.70 dst=10.0.0.1 proto=TCP dport=22 reason="SMTP_AUTH_ABUSE" count=12
+Mar 13 07:45:00 ids-sensor-02 kernel: [WARN] BLOCK src=1.94.220.55 dst=192.168.1.254 proto=TCP dport=22 reason="RDP_SCAN" count=123
+Mar 13 07:45:00 siem-relay kernel: [WARN] BLOCK src=100.16.175.246 dst=172.16.0.10 proto=TCP dport=22 reason="HTTP_FLOOD" count=40
+Mar 13 07:45:00 fw01.corp kernel: [CRIT] BLOCK src=100.23.218.71 dst=10.0.0.1 proto=TCP dport=22 reason="SSH_BRUTE_FORCE" count=167
+Mar 13 07:45:00 edge-gw kernel: [WARN] BLOCK src=100.24.157.217 dst=192.168.1.254 proto=TCP dport=22 reason="FTP_BRUTE_FORCE" count=76
+Mar 13 07:45:00 honeypot-us-east kernel: [WARN] BLOCK src=100.27.169.19 dst=172.16.0.10 proto=TCP dport=22 reason="SMTP_AUTH_ABUSE" count=80
+Mar 13 07:45:00 ids-sensor-02 kernel: [WARN] BLOCK src=100.54.13.222 dst=10.0.0.1 proto=TCP dport=22 reason="RDP_SCAN" count=121
+Mar 13 07:45:00 siem-relay kernel: [WARN] BLOCK src=101.100.194.181 dst=192.168.1.254 proto=TCP dport=22 reason="HTTP_FLOOD" count=100
+Mar 13 06:45:00 fw01.corp kernel: [CRIT] BLOCK src=101.100.194.199 dst=172.16.0.10 proto=TCP dport=22 reason="SSH_BRUTE_FORCE" count=116
+Mar 13 06:45:00 edge-gw kernel: [WARN] BLOCK src=101.126.11.137 dst=10.0.0.1 proto=TCP dport=22 reason="FTP_BRUTE_FORCE" count=146
+Mar 13 06:45:00 honeypot-us-east kernel: [WARN] BLOCK src=101.126.129.179 dst=192.168.1.254 proto=TCP dport=22 reason="SMTP_AUTH_ABUSE" count=155
+Mar 13 06:45:00 ids-sensor-02 kernel: [WARN] BLOCK src=101.126.130.65 dst=172.16.0.10 proto=TCP dport=22 reason="RDP_SCAN" count=180
+Mar 13 06:45:00 siem-relay kernel: [WARN] BLOCK src=101.126.138.155 dst=10.0.0.1 proto=TCP dport=22 reason="HTTP_FLOOD" count=147
+Mar 13 06:45:00 fw01.corp kernel: [CRIT] BLOCK src=101.126.14.37 dst=192.168.1.254 proto=TCP dport=22 reason="SSH_BRUTE_FORCE" count=70
+Mar 13 06:45:00 edge-gw kernel: [WARN] BLOCK src=101.126.141.34 dst=172.16.0.10 proto=TCP dport=22 reason="FTP_BRUTE_FORCE" count=99
+Mar 13 06:45:00 honeypot-us-east kernel: [WARN] BLOCK src=101.126.142.219 dst=10.0.0.1 proto=TCP dport=22 reason="SMTP_AUTH_ABUSE" count=104
+Mar 13 06:45:00 ids-sensor-02 kernel: [WARN] BLOCK src=101.126.143.178 dst=192.168.1.254 proto=TCP dport=22 reason="RDP_SCAN" count=99
+Mar 13 06:45:00 siem-relay kernel: [WARN] BLOCK src=101.126.144.104 dst=172.16.0.10 proto=TCP dport=22 reason="HTTP_FLOOD" count=50
+Mar 13 05:45:00 fw01.corp kernel: [CRIT] BLOCK src=101.126.147.203 dst=10.0.0.1 proto=TCP dport=22 reason="SSH_BRUTE_FORCE" count=178
+Mar 13 05:45:00 edge-gw kernel: [WARN] BLOCK src=101.126.147.62 dst=192.168.1.254 proto=TCP dport=22 reason="FTP_BRUTE_FORCE" count=192
+Mar 13 05:45:00 honeypot-us-east kernel: [WARN] BLOCK src=101.126.155.86 dst=172.16.0.10 proto=TCP dport=22 reason="SMTP_AUTH_ABUSE" count=100
+Mar 13 05:45:00 ids-sensor-02 kernel: [WARN] BLOCK src=101.126.157.138 dst=10.0.0.1 proto=TCP dport=22 reason="RDP_SCAN" count=5
+Mar 13 05:45:00 siem-relay kernel: [WARN] BLOCK src=101.126.22.12 dst=192.168.1.254 proto=TCP dport=22 reason="HTTP_FLOOD" count=42
+Mar 13 05:45:00 fw01.corp kernel: [CRIT] BLOCK src=101.126.24.58 dst=172.16.0.10 proto=TCP dport=22 reason="SSH_BRUTE_FORCE" count=60
+Mar 13 05:45:00 edge-gw kernel: [WARN] BLOCK src=101.126.35.9 dst=10.0.0.1 proto=TCP dport=22 reason="FTP_BRUTE_FORCE" count=41
+Mar 13 05:45:00 honeypot-us-east kernel: [WARN] BLOCK src=101.126.4.240 dst=192.168.1.254 proto=TCP dport=22 reason="SMTP_AUTH_ABUSE" count=47
+Mar 13 05:45:00 ids-sensor-02 kernel: [WARN] BLOCK src=101.126.54.245 dst=172.16.0.10 proto=TCP dport=22 reason="RDP_SCAN" count=191
+Mar 13 05:45:00 siem-relay kernel: [WARN] BLOCK src=101.126.54.36 dst=10.0.0.1 proto=TCP dport=22 reason="HTTP_FLOOD" count=139
+Mar 13 04:45:00 fw01.corp kernel: [CRIT] BLOCK src=101.126.54.66 dst=192.168.1.254 proto=TCP dport=22 reason="SSH_BRUTE_FORCE" count=6
+Mar 13 04:45:00 edge-gw kernel: [WARN] BLOCK src=101.126.54.95 dst=172.16.0.10 proto=TCP dport=22 reason="FTP_BRUTE_FORCE" count=60
+Mar 13 04:45:00 honeypot-us-east kernel: [WARN] BLOCK src=101.126.55.63 dst=10.0.0.1 proto=TCP dport=22 reason="SMTP_AUTH_ABUSE" count=91
+Mar 13 04:45:00 ids-sensor-02 kernel: [WARN] BLOCK src=101.126.55.95 dst=192.168.1.254 proto=TCP dport=22 reason="RDP_SCAN" count=125
+Mar 13 04:45:00 siem-relay kernel: [WARN] BLOCK src=101.126.64.76 dst=172.16.0.10 proto=TCP dport=22 reason="HTTP_FLOOD" count=111
+Mar 13 04:45:00 fw01.corp kernel: [CRIT] BLOCK src=101.126.66.30 dst=10.0.0.1 proto=TCP dport=22 reason="SSH_BRUTE_FORCE" count=122
+Mar 13 04:45:00 edge-gw kernel: [WARN] BLOCK src=101.126.67.255 dst=192.168.1.254 proto=TCP dport=22 reason="FTP_BRUTE_FORCE" count=122
+Mar 13 04:45:00 honeypot-us-east kernel: [WARN] BLOCK src=101.126.67.70 dst=172.16.0.10 proto=TCP dport=22 reason="SMTP_AUTH_ABUSE" count=30
+Mar 13 04:45:00 ids-sensor-02 kernel: [WARN] BLOCK src=101.126.68.11 dst=10.0.0.1 proto=TCP dport=22 reason="RDP_SCAN" count=18
+Mar 13 04:45:00 siem-relay kernel: [WARN] BLOCK src=101.126.69.201 dst=192.168.1.254 proto=TCP dport=22 reason="HTTP_FLOOD" count=160
+
+# ============================================================
+# EmergingThreats - Compromised Host Intelligence
+# Feed date: 2026-03-13
+# Format: ALERT | timestamp | src_ip | category | description
+# ============================================================
+ALERT | 2026-03-13T11:45:00Z | 101.126.129.179 | MALWARE-DISTRIBUTION | ET COMPROMISED Known Compromised Host Traffic (MALWARE-DISTRIBUTION) | dst_port=8080 | priority=1
+ALERT | 2026-03-13T11:45:00Z | 101.126.85.58 | BOTNET-MEMBER | ET COMPROMISED Known Compromised Host Traffic (BOTNET-MEMBER) | dst_port=443 | priority=2
+ALERT | 2026-03-13T11:45:00Z | 101.36.104.242 | EXPLOIT-KIT | ET COMPROMISED Known Compromised Host Traffic (EXPLOIT-KIT) | dst_port=8080 | priority=1
+ALERT | 2026-03-13T11:45:00Z | 101.36.118.177 | DDoS-SOURCE | ET COMPROMISED Known Compromised Host Traffic (DDoS-SOURCE) | dst_port=8080 | priority=2
+ALERT | 2026-03-13T11:45:00Z | 101.36.123.102 | PHISHING-HOST | ET COMPROMISED Known Compromised Host Traffic (PHISHING-HOST) | dst_port=8080 | priority=2
+ALERT | 2026-03-13T10:45:00Z | 101.36.125.11 | CRYPTOMINER | ET COMPROMISED Known Compromised Host Traffic (CRYPTOMINER) | dst_port=4444 | priority=2
+ALERT | 2026-03-13T10:45:00Z | 101.36.126.70 | MALWARE-DISTRIBUTION | ET COMPROMISED Known Compromised Host Traffic (MALWARE-DISTRIBUTION) | dst_port=80 | priority=1
+ALERT | 2026-03-13T10:45:00Z | 101.36.127.50 | BOTNET-MEMBER | ET COMPROMISED Known Compromised Host Traffic (BOTNET-MEMBER) | dst_port=8080 | priority=2
+ALERT | 2026-03-13T10:45:00Z | 103.118.28.247 | EXPLOIT-KIT | ET COMPROMISED Known Compromised Host Traffic (EXPLOIT-KIT) | dst_port=8080 | priority=1
+ALERT | 2026-03-13T10:45:00Z | 103.121.91.144 | DDoS-SOURCE | ET COMPROMISED Known Compromised Host Traffic (DDoS-SOURCE) | dst_port=8080 | priority=2
+ALERT | 2026-03-13T09:45:00Z | 103.124.107.26 | PHISHING-HOST | ET COMPROMISED Known Compromised Host Traffic (PHISHING-HOST) | dst_port=443 | priority=2
+ALERT | 2026-03-13T09:45:00Z | 103.14.32.75 | CRYPTOMINER | ET COMPROMISED Known Compromised Host Traffic (CRYPTOMINER) | dst_port=443 | priority=2
+ALERT | 2026-03-13T09:45:00Z | 103.147.14.179 | MALWARE-DISTRIBUTION | ET COMPROMISED Known Compromised Host Traffic (MALWARE-DISTRIBUTION) | dst_port=8080 | priority=1
+ALERT | 2026-03-13T09:45:00Z | 103.148.195.198 | BOTNET-MEMBER | ET COMPROMISED Known Compromised Host Traffic (BOTNET-MEMBER) | dst_port=443 | priority=2
+ALERT | 2026-03-13T09:45:00Z | 103.158.206.141 | EXPLOIT-KIT | ET COMPROMISED Known Compromised Host Traffic (EXPLOIT-KIT) | dst_port=8080 | priority=1
+ALERT | 2026-03-13T08:45:00Z | 103.160.5.123 | DDoS-SOURCE | ET COMPROMISED Known Compromised Host Traffic (DDoS-SOURCE) | dst_port=6666 | priority=2
+ALERT | 2026-03-13T08:45:00Z | 103.174.102.89 | PHISHING-HOST | ET COMPROMISED Known Compromised Host Traffic (PHISHING-HOST) | dst_port=8080 | priority=2
+ALERT | 2026-03-13T08:45:00Z | 103.218.241.106 | CRYPTOMINER | ET COMPROMISED Known Compromised Host Traffic (CRYPTOMINER) | dst_port=6666 | priority=2
+ALERT | 2026-03-13T08:45:00Z | 103.218.243.248 | MALWARE-DISTRIBUTION | ET COMPROMISED Known Compromised Host Traffic (MALWARE-DISTRIBUTION) | dst_port=6666 | priority=1
+ALERT | 2026-03-13T08:45:00Z | 103.228.36.205 | BOTNET-MEMBER | ET COMPROMISED Known Compromised Host Traffic (BOTNET-MEMBER) | dst_port=8080 | priority=2
+ALERT | 2026-03-13T07:45:00Z | 103.235.107.238 | EXPLOIT-KIT | ET COMPROMISED Known Compromised Host Traffic (EXPLOIT-KIT) | dst_port=6666 | priority=1
+ALERT | 2026-03-13T07:45:00Z | 103.39.222.143 | DDoS-SOURCE | ET COMPROMISED Known Compromised Host Traffic (DDoS-SOURCE) | dst_port=8080 | priority=2
+ALERT | 2026-03-13T07:45:00Z | 103.49.62.60 | PHISHING-HOST | ET COMPROMISED Known Compromised Host Traffic (PHISHING-HOST) | dst_port=4444 | priority=2
+ALERT | 2026-03-13T07:45:00Z | 103.61.122.229 | CRYPTOMINER | ET COMPROMISED Known Compromised Host Traffic (CRYPTOMINER) | dst_port=80 | priority=2
+ALERT | 2026-03-13T07:45:00Z | 103.63.24.38 | MALWARE-DISTRIBUTION | ET COMPROMISED Known Compromised Host Traffic (MALWARE-DISTRIBUTION) | dst_port=4444 | priority=1
+ALERT | 2026-03-13T06:45:00Z | 104.131.39.123 | BOTNET-MEMBER | ET COMPROMISED Known Compromised Host Traffic (BOTNET-MEMBER) | dst_port=8080 | priority=2
+ALERT | 2026-03-13T06:45:00Z | 104.131.4.130 | EXPLOIT-KIT | ET COMPROMISED Known Compromised Host Traffic (EXPLOIT-KIT) | dst_port=4444 | priority=1
+ALERT | 2026-03-13T06:45:00Z | 104.236.13.93 | DDoS-SOURCE | ET COMPROMISED Known Compromised Host Traffic (DDoS-SOURCE) | dst_port=6666 | priority=2
+ALERT | 2026-03-13T06:45:00Z | 104.236.80.177 | PHISHING-HOST | ET COMPROMISED Known Compromised Host Traffic (PHISHING-HOST) | dst_port=6666 | priority=2
+ALERT | 2026-03-13T06:45:00Z | 104.236.84.17 | CRYPTOMINER | ET COMPROMISED Known Compromised Host Traffic (CRYPTOMINER) | dst_port=6666 | priority=2
+ALERT | 2026-03-13T05:45:00Z | 104.236.95.108 | MALWARE-DISTRIBUTION | ET COMPROMISED Known Compromised Host Traffic (MALWARE-DISTRIBUTION) | dst_port=443 | priority=1
+ALERT | 2026-03-13T05:45:00Z | 104.248.130.54 | BOTNET-MEMBER | ET COMPROMISED Known Compromised Host Traffic (BOTNET-MEMBER) | dst_port=6666 | priority=2
+ALERT | 2026-03-13T05:45:00Z | 104.248.209.31 | EXPLOIT-KIT | ET COMPROMISED Known Compromised Host Traffic (EXPLOIT-KIT) | dst_port=4444 | priority=1
+ALERT | 2026-03-13T05:45:00Z | 104.248.252.58 | DDoS-SOURCE | ET COMPROMISED Known Compromised Host Traffic (DDoS-SOURCE) | dst_port=8080 | priority=2
+ALERT | 2026-03-13T05:45:00Z | 104.248.252.60 | PHISHING-HOST | ET COMPROMISED Known Compromised Host Traffic (PHISHING-HOST) | dst_port=8080 | priority=2
+ALERT | 2026-03-13T04:45:00Z | 104.248.41.74 | CRYPTOMINER | ET COMPROMISED Known Compromised Host Traffic (CRYPTOMINER) | dst_port=443 | priority=2
+ALERT | 2026-03-13T04:45:00Z | 104.248.84.27 | MALWARE-DISTRIBUTION | ET COMPROMISED Known Compromised Host Traffic (MALWARE-DISTRIBUTION) | dst_port=6666 | priority=1
+ALERT | 2026-03-13T04:45:00Z | 104.248.86.58 | BOTNET-MEMBER | ET COMPROMISED Known Compromised Host Traffic (BOTNET-MEMBER) | dst_port=443 | priority=2
+ALERT | 2026-03-13T04:45:00Z | 106.124.137.21 | EXPLOIT-KIT | ET COMPROMISED Known Compromised Host Traffic (EXPLOIT-KIT) | dst_port=8080 | priority=1
+ALERT | 2026-03-13T04:45:00Z | 107.150.119.229 | DDoS-SOURCE | ET COMPROMISED Known Compromised Host Traffic (DDoS-SOURCE) | dst_port=8080 | priority=2
+
+# END OF LOG EXPORT  total_entries=125
+# Dump timestamp: 2026-03-13T11:45:00Z
