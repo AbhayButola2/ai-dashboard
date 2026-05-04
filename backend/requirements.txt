@@ -7,3 +7,10 @@ torch
 pytest
 httpx
 requests
+sqlalchemy
+sentence-transformers
+networkx
+shap
+pyvis
+plotly
+python-multipart

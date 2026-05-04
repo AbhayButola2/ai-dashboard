@@ -1,0 +1,36 @@
+# Environments
+**/venv/
+**/.env
+**/.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Output / Logs
+backend/raw_logs.txt
+backend/normalized_logs.json
+backend/demo_logs.json
+backend/uploads/
+*.log
+
+# Caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
